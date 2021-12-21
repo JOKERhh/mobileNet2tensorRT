@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/trt_test.dir/main.o CMakeFiles/trt_test.dir/usr/src/tensorrt/samples/common/logger.o -o trt_test  -Wl,-rpath,/usr/local/cuda-10.2/lib64 -lnvonnxparser -lnvinfer /usr/local/cuda-10.2/lib64/libcudart.so 
